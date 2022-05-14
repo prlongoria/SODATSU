@@ -1,0 +1,199 @@
+.Bob_Esponja{
+    border: 2px solid black;
+    width: 200px;
+    height: 300px;
+}
+    
+body{
+        display: flex;
+        justify-content: center;
+    }
+.cara {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #f5ee31;
+    width: 100%;
+    height: 65%;
+
+}
+
+.cara_interior{
+    width: 75%;
+    height: 75%;    
+    background-color: blue;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.cara_interior_superior{
+
+    width: 100%;
+    height: 50%;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.ojo_izdo{
+
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 50px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.iris_izdo{
+
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.niña_izda{
+
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: black;
+
+}
+
+
+
+.ojo_drcho{
+
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 50px;
+    border: 2px solid black;
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.iris_drcho{
+
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+
+.niña_drcho{
+
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: black;
+
+}
+
+.nariz{
+
+width: 2%;
+height: 8%;
+background-color: #f5ee31;
+align-self: flex-end;
+position: absolute;
+border-radius: 8px;
+
+border-top:2px solid black ;
+border-left: 2px solid black;
+border-right: 2px solid black;
+
+}
+
+.cara_interior_inferior{
+
+    width: 100%;
+    height: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+
+}
+
+.boca{
+
+    width: 85%;
+    height: 50%;
+    border-radius: 50%;
+    border-bottom: 2px solid black;
+    margin: auto;
+    
+    
+    
+}
+
+.dentadura{
+    width: 25%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    
+    
+
+    
+
+}
+
+.diente{
+
+    width: 30%;
+    height: 50%;
+    background-color: white;
+    border: 2px solid black;
+    margin: auto;
+
+
+}
+
+
+
+.cuerpo{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;  
+       
+}
+.camisa{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: 50%;
+}
+.pantalon{
+    width: 100%;
+    height: 50%;
+    background-color: #8d501c;
+}
