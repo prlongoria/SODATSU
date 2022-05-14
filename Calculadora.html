@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Proyecto Calculadora</title>
+
+	<style type="text/css">
+		#n1{
+			text-align: center;
+		}
+
+		#n2{
+			text-align: center;
+		}
+
+		.operador{
+			
+			text-align: center;
+
+		}
+
+
+	</style>
+
+</head>
+<body>
+
+	<label>Primera cantidad:</label> <input type="number" id="n1">
+	<label>Segunda cantidad:</label> <input type="number" id="n2">
+
+		
+
+		
+	<label>SUMA</label> <input type="radio" name="operacion" class="operador" value= "suma">
+
+	<label>RESTA</label> <input type="radio" name="operacion" class="operador" value ="resta">
+
+	<label>MULTIPLICACIÓN</label> <input type="radio" name="operacion" class="operador" value="multiplicacion">
+
+	<label>DIVISIÓN</label> <input type="radio" name="operacion" class="operador" value="division">
+
+	<button type="button" id="boton">CALCULAR</button>
+
+	<output type='text' id='resultado'>Resultado</output>
+
+	<script type="text/javascript">
+		
+		
+
+		boton.onclick = function (){
+
+			let numero1 = document.getElementById ("n1").value;
+			let numero2 = document.getElementById ("n2").value;
+			let resultado= document.getElementById("resultado");
+
+			let operacion = document.querySelector('input[name="operacion"]:checked').value;
+			console.log (operacion);
+
+			switch (operacion){
+				case 'suma':
+				let suma = parseFloat(numero1)+parseFloat(numero2);
+				resultado.innerHTML=suma;
+				
+				break;
+
+				case 'resta':
+				let resta = parseFloat(numero1)-parseFloat(numero2);
+				resultado.innerHTML=resta;
+				
+				break;
+
+				case 'multiplicacion':
+				let multiplicacion = parseFloat(numero1)*parseFloat(numero2);
+				resultado.innerHTML=multiplicacion;
+				
+				break;
+
+				case 'division':
+				let division = parseFloat(numero1)/parseFloat(numero2);
+				resultado.innerHTML=division;
+				
+				break;
+
+				
+
+			}
+			
+			
+			
+		};
+
+
+	</script>
+
+</body>
+</html>
+
