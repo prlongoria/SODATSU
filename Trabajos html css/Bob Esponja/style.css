@@ -48,6 +48,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: -5px;
 
 
 }
@@ -64,12 +65,49 @@ body{
     
 }
 
-.niña_izda{
+.pupila_izda{
 
     width: 50%;
     height: 50%;
     border-radius: 50%;
     background-color: black;
+
+}
+
+.pestaña1,
+.pestaña2,
+.pestaña3{
+    position: relative;
+    width: 0px;
+    height: 15px;
+    border: 1px solid black;
+    margin-bottom: 2px;
+    background-color: black;
+    
+    
+}
+
+
+
+.pestaña1{
+
+    left: -35px;
+    top: -40px;
+    transform: rotate(-45deg);
+
+}
+
+.pestaña2{
+
+    left: -20px;
+    top: -45px;
+}
+
+.pestaña3{
+
+    left: -2px;
+    top: -40px;
+    transform: rotate(45deg);
 
 }
 
@@ -103,7 +141,7 @@ body{
 
 }
 
-.niña_drcho{
+.pupila_drcho{
 
     width: 50%;
     height: 50%;
@@ -114,16 +152,16 @@ body{
 
 .nariz{
 
-width: 2%;
-height: 8%;
+width: 10px;
+height: 20px;
 background-color: #f5ee31;
 align-self: flex-end;
 position: absolute;
-border-radius: 8px;
+border-radius: 80%;
+border: 2px solid black;
 
-border-top:2px solid black ;
-border-left: 2px solid black;
-border-right: 2px solid black;
+
+border-bottom: 2px solid transparent;
 
 
 }
@@ -132,7 +170,7 @@ border-right: 2px solid black;
 
     width: 100%;
     height: 50%;
-    background-color: red;
+    background-color: yellow;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -143,40 +181,51 @@ border-right: 2px solid black;
 
 .boca{
 
+    
     width: 85%;
     height: 50%;
     border-radius: 50%;
-    border-bottom: 2px solid black;
-    margin: auto;
+    border-bottom: 3px solid black;
+    margin: auto;   
+    margin-bottom: -5px;        
+       
+    }
+
+/*.dentadura {
     display: flex;
-    
-    
-    
-    
-    
+    justify-content: center;
+    gap: 2px;
+    margin-top:15px;
 }
 
+.diente {
+    width: 10px;
+    height: 12px;
+    background: white;
+    border: 2px solid black;
+    
+}*/
+
 .dentadura{
-    width: 25%;
-    height: 15%;
+    width: 50px;
+    height: 20px;
     display: flex;
-    align-items: center;
-    align-self: center;
-    margin-bottom: 5mm;
-   
-          
+    margin-left: 50px;
+    margin-bottom: 0.70cm;
+       
+     
+                
 }
 
 .diente{
 
-    width: 30%;
-    height: 100%;
+    width: 10px;
+    height: 12px;
     background-color: white;
     border: 2px solid black;
     margin: auto;
+       
     
-
-
 }
 .mofletes{
 
