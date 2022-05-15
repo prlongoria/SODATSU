@@ -9,7 +9,7 @@ body{
         display: flex;
         justify-content: center;
     }
-.cara {
+.face {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -20,7 +20,7 @@ body{
 
 }
 
-.circulo_grande{
+.big_circle{
     position: relative;
     width: 35px;
     height: 35px;
@@ -31,9 +31,9 @@ body{
 
 
 }
-.circulo_mediano1,
-.circulo_mediano2,
-.circulo_mediano3 {
+.medium_circle1,
+.medium_circle2,
+.medium_circle3 {
     position: relative;    
     width: 25px;
     height: 25px;
@@ -42,23 +42,23 @@ body{
     
 }
 
-.circulo_mediano1{
+.medium_circle1{
     left: -70px;
     
 }
 
-.circulo_mediano2{
+.medium_circle2{
     top: 165px;
     left: 40px;
 }
-.circulo_mediano3{
+.medium_circle3{
     top: 130px;
     left: 65px;
     overflow: hidden;
     
 }
 
-.circulo_pequeño{
+.small_circle{
 
     position: relative;    
     width: 15px;
@@ -70,7 +70,7 @@ body{
     
 }
 
-.cara_interior{
+.inner_face{
     position: absolute;
     width: 150px;
     height: 146.25px;    
@@ -80,7 +80,7 @@ body{
     align-content: center;
 }
 
-.cara_interior_superior{
+.inner_upper_face{
 
     width: 150px;
     height: 73.12;
@@ -90,7 +90,7 @@ body{
     
 
 }
-.ojo_izdo{
+.left_eye{
 
     width: 74px;
     height: 74px;
@@ -105,7 +105,7 @@ body{
 
 }
 
-.iris_izdo{
+.left_iris{
 
     width: 36.75px;
     height: 36.56px;
@@ -118,7 +118,7 @@ body{
     
 }
 
-.pupila_izda{
+.left_pupil{
 
     width: 18.37px;
     height: 18.28px;
@@ -129,9 +129,9 @@ body{
 
 }
 
-.pestaña1,
-.pestaña2,
-.pestaña3{
+.eyelash1,
+.eyelash2,
+.eyelash3{
     position: relative;
     width: 0px;
     height: 15px;
@@ -144,7 +144,7 @@ body{
 
 
 
-.pestaña1{
+.eyelash1{
 
     left: -35px;
     top: -41px;
@@ -152,13 +152,13 @@ body{
 
 }
 
-.pestaña2{
+.eyelash2{
 
     left: -20px;
     top: -45px;
 }
 
-.pestaña3{
+.eyelash3{
 
     left: -2px;
     top: -41px;
@@ -168,7 +168,7 @@ body{
 
 
 
-.ojo_drcho{
+.right_eye{
 
     width: 74px;
     height: 74px;
@@ -182,7 +182,7 @@ body{
 
 }
 
-.iris_drcho{
+.right_iris{
 
     width: 36.75px;
     height: 36.56px;
@@ -197,7 +197,7 @@ body{
 
 }
 
-.pupila_drcho{
+.right_pupil{
 
     width: 18.37px;
     height: 18.28px;
@@ -207,7 +207,7 @@ body{
 
 }
 
-.nariz{
+.nose{
 
 width: 10px;
 height: 23px;
@@ -223,7 +223,7 @@ border-bottom: 3px solid transparent;
 
 }
 
-.cara_interior_inferior{
+.lower_inner_face{
 
     width: 150px;
     height: 73.12px;
@@ -235,7 +235,7 @@ border-bottom: 3px solid transparent;
 
 }
 
-.boca{
+.mouth{
 
     
     width: 127.5px;
@@ -247,22 +247,7 @@ border-bottom: 3px solid transparent;
        
     }
 
-/*.dentadura {
-    display: flex;
-    justify-content: center;
-    gap: 2px;
-    margin-top:15px;
-}
-
-.diente {
-    width: 10px;
-    height: 12px;
-    background: white;
-    border: 2px solid black;
-    
-}*/
-
-.dentadura{
+.teeth{
     width: 50px;
     height: 20px;
     display: flex;
@@ -271,7 +256,7 @@ border-bottom: 3px solid transparent;
                 
 }
 
-.diente{
+.tooth{
 
     width: 10px;
     height: 12px;
@@ -281,7 +266,7 @@ border-bottom: 3px solid transparent;
     
 
 }
-.mofletes{
+.cheeks{
 
     width: 150px;
     height: 21.93px;
@@ -293,7 +278,7 @@ border-bottom: 3px solid transparent;
 
 }
 
-.moflete1{
+.cheek1{
 
     width: 22.5px;
     height: 23.93px;
@@ -302,7 +287,7 @@ border-bottom: 3px solid transparent;
 
 }
 
-.moflete2{
+.cheek2{
 
     width: 22.5px;
     height: 23.93px;
@@ -312,7 +297,7 @@ border-bottom: 3px solid transparent;
 }
 
 
-.cuerpo{
+.body{
     width: 200px;
     height: 105px;
     display: flex;
@@ -320,7 +305,7 @@ border-bottom: 3px solid transparent;
     flex-direction: column;  
        
 }
-.camisa{
+.shirt{
     border-top: 4px solid black;
     border-bottom: 4px solid black;
     width: 200px;
@@ -329,7 +314,7 @@ border-bottom: 3px solid transparent;
     overflow: hidden;
     
 }
-.cuello1{
+.collar1{
    position: relative;
     height: 30px;
     border: 1.5px solid black;
@@ -338,7 +323,7 @@ border-bottom: 3px solid transparent;
     bottom: 7px;
     left: -8px;
 }
-.cuello2{
+.collar2{
     position: relative;
      height: 24px;
      border: 1.5px solid black;
@@ -347,7 +332,16 @@ border-bottom: 3px solid transparent;
      bottom: 4px;
      left: 9px;
  }
- .cuello4{
+ .collar3{
+    position: relative;
+     height: 24px;
+     border: 1.5px solid black;
+     background-color: black;
+     transform: rotate(-35deg);
+     bottom: 4px;
+     left: 82px;
+ }
+ .collar4{
     position: relative;
      height: 30px;
      border: 1.5px solid black;
@@ -356,17 +350,9 @@ border-bottom: 3px solid transparent;
      bottom: 7px;
      left: 98px;
  }
- .cuello3{
-     position: relative;
-      height: 24px;
-      border: 1.5px solid black;
-      background-color: black;
-      transform: rotate(-35deg);
-      bottom: 4px;
-      left: 82px;
-  }
+ 
 
-.nudo{
+.knot{
 
     position: relative;
     width: 39px;
@@ -377,60 +363,23 @@ border-bottom: 3px solid transparent;
     left: 76px;
     bottom: 30px;
     
-
-}
-/*.nudo{
-    position: relative;
-    width: 0px;
-    height: 0px;
-    left: 69px;
-    bottom: 1px;
-    border-right: 30px solid transparent;
-    border-top: 25px solid red;
-    border-left: 30px solid transparent;
-    border-bottom: transparent;
-    justify-self: center;
-}*/
-.nudo{
-
 }
 
-/*.cuellos{
-    position: absolute;
-    width: 200px;
-    height: 25px;
-    display: flex;
-    
 
-}
 
-.cuello{
-    position: relative;
-    width: 45px;
-    height: 30px;
-    border: 2px solid black;
-    transform: rotate(45deg);
-    bottom: 30px;
-    justify-items: space-around;
-    
-    
-    
 
-}*/
-
-.pantalon{
+.throusers{
     width: 200px;
     height: 49px;
     background-color: #8d501c;
     display: flex;
     justify-content: space-around;
-    
-    
+     
 }
 
 
 
-.cinto{
+.belts{
     position: absolute;
     width:200px ;
     height:50px ;
@@ -440,7 +389,7 @@ border-bottom: 3px solid transparent;
 
 }
 
-.cinturon{
+.belt{
 
     width: 25px;
     height: 4px;
@@ -450,7 +399,7 @@ border-bottom: 3px solid transparent;
 
 }
 
-.corbata{
+.tie{
     position: relative;
     width: 55px;
     height: 55px;
