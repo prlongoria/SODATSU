@@ -18,7 +18,55 @@ body{
 
 }
 
+.circulo_grande{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: orange;
+    top: 156px;
+    right: 30px;
+
+
+}
+.circulo_mediano1,
+.circulo_mediano2,
+.circulo_mediano3 {
+    position: relative;    
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: orange;
+    
+}
+
+.circulo_mediano1{
+    left: -70px;
+}
+
+.circulo_mediano2{
+    top: 165px;
+    left: 40px;
+}
+.circulo_mediano3{
+    top: 130px;
+    left: 65px;
+}
+
+.circulo_pequeño{
+
+    position: relative;    
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: orange;
+    left: 30px;
+    top: 50px;
+    
+}
+
 .cara_interior{
+    position: absolute;
     width: 150px;
     height: 146.25px;    
     align-self: center;
@@ -39,8 +87,8 @@ body{
 }
 .ojo_izdo{
 
-    width: 77.5px;
-    height: 77.5px;
+    width: 74px;
+    height: 74px;
     background-color: white;
     border-radius: 50px;
     border: 2px solid black;
@@ -58,6 +106,7 @@ body{
     height: 36.56px;
     border-radius: 50%;
     background-color: blue;
+    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,8 +163,8 @@ body{
 
 .ojo_drcho{
 
-    width: 77.5px;
-    height: 77.5px;
+    width: 74px;
+    height: 74px;
     background-color: white;
     border-radius: 50px;
     border: 2px solid black;
@@ -131,6 +180,7 @@ body{
     width: 36.75px;
     height: 36.56px;
     border-radius: 50%;
+    border: 1px solid black;
     background-color: blue;
     display: flex;
     align-items: center;
@@ -267,7 +317,45 @@ border-bottom: 2px solid transparent;
     width: 200px;
     height: 53px;
     display: flex;
+    
+    
 }
+.cuello1{
+   position: relative;
+    height: 29.5px;
+    border: 1px solid black;
+    background-color: black;
+    transform: rotate(-50deg);
+    bottom: 7px;
+    left: -5px;
+}
+.cuello2{
+    position: relative;
+     height: 23px;
+     border: 1px solid black;
+     background-color: black;
+     transform: rotate(35deg);
+     bottom: 4px;
+     left: 12px;
+ }
+ .cuello4{
+    position: relative;
+     height: 29px;
+     border: 1px solid black;
+     background-color: black;
+     transform: rotate(50deg);
+     bottom: 7px;
+     left: 99px;
+ }
+ .cuello3{
+     position: relative;
+      height: 23px;
+      border: 1px solid black;
+      background-color: black;
+      transform: rotate(-35deg);
+      bottom: 4px;
+      left: 83px;
+  }
 
 .nudo{
 
@@ -281,6 +369,30 @@ border-bottom: 2px solid transparent;
     bottom: 30px;
 
 }
+
+/*.cuellos{
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    display: flex;
+    
+
+}
+
+.cuello{
+    position: relative;
+    width: 45px;
+    height: 30px;
+    border: 2px solid black;
+    transform: rotate(45deg);
+    bottom: 30px;
+    justify-items: space-around;
+    
+    
+    
+
+}*/
+
 .pantalon{
     width: 200px;
     height: 52.5px;
