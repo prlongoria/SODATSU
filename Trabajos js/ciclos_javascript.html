@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ciclos</title>
+	<style type="text/css">
+		#edad{
+			display: block;
+			border: 2px solid aquamarine;
+			font-weight: bold;
+			font-size: 20px;
+			color: blueviolet;
+		}
+		#boton{
+			margin-top: 20px;
+			width: 100px;
+			height: 40px;
+		}
+		#permiso{
+			width: 350px;
+			height: 40px;
+			border: 2px solid aquamarine;
+			display: block;
+			font-weight: bold;
+			font-size: 25px;
+			color: blueviolet;
+		}
+		.text{
+			font-size: 40px;
+			font-weight: bold;
+		}
+
+	</style>
+</head>
+<body>
+
+	<label><p class="text">Introduce tu edad: </p></label> <input type="number" id="edad">
+	<button type="button" id="boton">ENVIAR</button>
+	<p><p class="text">Verificación de permiso: </p><output type='text' id='permiso' disabled></output></p>
+
+	<script type="text/javascript">
+		let button = document.getElementById ("boton");
+
+		button.onclick = function (){
+
+			let edad = document.getElementById ("edad").value;
+			let permiso= document.getElementById("permiso");
+			
+
+			if (edad >= 18) {
+				
+				permiso.value = "Adelante";
+
+			} else{
+				permiso.value = "Yes un yogurín, no pues pasar!";
+			}
+
+			
+
+
+	};
+	</script>
+
+</body>
+</html>
