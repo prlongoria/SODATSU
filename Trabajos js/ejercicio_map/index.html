@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Map</title>
+</head>
+<body>
+    <script>
+        const map = new Map ();
+        let names = ['Jimena', 'Pepe'];
+        map.set (names[0], {phone:'568484757', address: 'Gijon'});
+        map.set (names[1], '626548963');
+        console.log(names[0] + ":" + map.get(names[0]).address );
+        console.log(map.get(names[1]));
+        console.dir(names[0] + ":" + map.get(names[0]).phone +' '+ names[1] + ":" + map.get (names[1]));
+    </script>
+    
+</body>
+</html>
