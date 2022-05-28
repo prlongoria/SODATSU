@@ -1,203 +1,148 @@
 .fondo{
     width: 1300px;
     height: 800px;
-    background-color: aquamarine;
-    display: flex;
-    flex-direction: column;
-    
+    background-image: url("fondo de madera.jpg");
+    display: grid;
+    grid-template-columns: repeat(8, 1fr) ;
+    grid-template-rows: repeat(8, 1fr);
 }
-
 h1{
+    grid-column-start: 1;
+    grid-column-end: 9;
     font-size: 40px;
     text-align: center;
     font-weight: bold;
+
 }
 h2{
+    grid-column-start: 1;
+    grid-column-end: 9;
     font-size: 30px;
     text-align: center;
     font-weight: bold;
 }
 .table{
-    width: 900px;
+    grid-column-start: 2;
+    grid-column-end: 8;
+    width: 100%;
     height: 400px;
     align-self: center;
-    
-    
-    
-}
-.variety{
-    width: 900px;
-    height: 300px;
-    display: flex;
-    justify-content: space-between;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr 1fr;
+    grid-template-rows: repeat(4, 1fr);  
+        
 }
 .colors{
-    width: 900px;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    width: 100%;
     height: 100px;
     background-color: green;
-    display: flex;
-    justify-content: center;
-}
-
-.text{
-    align-self: center;
-        
+    
 }
 .text1{
     font-size: 30px;
     font-weight: bold;
+    text-align: center;
 }
-.left_side{
-    width: 450px;
-    height: 300px;
-    
-    display: flex;
-    justify-content: space-around;
-    
-}
-.first_column{
-    width: 150px;
-    height: 300px;
-    
-}
+
 .black1{
-    width: 150px;
+    width: 100%;
     height: 100px;
     background-color: black;
-    display: flex;
+    
 }
 .purple{
-    width: 150px;
+    width: 100%;
     height: 100px;
     background-color: purple;
-    display: flex;
+    
 }
 .olive1{
-    width: 150px;
+    width: 100%;
     height: 100px;
     background-color: olive;
-    display: flex;
-}
-.second_column{
-    width: 150px;
-    height: 300px;
-    
-}
-.teal{
-    width: 150px;
-    height: 100px;
-    background-color: teal;
-    display: flex;
-}
-.yellow{
-    width: 150px;
-    height: 100px;
-    background-color: yellow;
-    display: flex;
-}
-.red1{
-    width: 150px;
-    height: 100px;
-    background-color: red;
-    display: flex;
-}
-.third_column{
-    width: 150px;
-    height: 300px;
-    
-}
-.blue{
-    width: 150px;
-    height: 100px;
-    background-color: blue;
-    display: flex;
-}
-.olive2{
-    width: 150px;
-    height: 100px;
-    background-color: olive;
-    display: flex;
-}
-.fuchsia{
-    width: 150px;
-    height: 100px;
-    background-color: fuchsia;
-    display: flex;
-}
-.right_side{
-    width: 450px;
-    height: 300px;
-    background-color: palevioletred;
-    
-}
-.first_row{
-    width: 450px;
-    height: 100px;
-    display: flex;
     
 }
 .navy{
-    width: 125px;
+    width: 100%;
     height: 100px;
     background-color: navy;
-    display: flex;
+    
 }
 .lime{
-    width: 200px;
+    width: 100%;
     height: 100px;
     background-color: lime;
-    display: flex;
+    
 }
 .white{
-    width: 125px;
+    width: 100%;
     height: 100px;
     background-color: white;
-    display: flex;
+    
 }
-.second_row{
-    width: 450px;
+.teal{
+    width: 100%;
     height: 100px;
-    display: flex;
+    background-color: teal;
+    
 }
-.red2{
-    width: 125px;
+.yellow{
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+    
+}
+.red1{
+    width: 100%;
     height: 100px;
     background-color: red;
-    display: flex;
+    
+}
+.red2{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    
 }
 .black2{
-    width: 200px;
+    width: 100%;
     height: 100px;
     background-color: black;
-    display: flex;
+    
 }
 .gray{
-    width: 125px;
+    width: 100%;
     height: 100px;
     background-color: gray;
-    display: flex;
-}
-.third_row{
-    width: 450px;
-    height: 100px;
     
+}
+.blue{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    
+}
+.olive2{
+    width: 100%;
+    height: 100px;
+    background-color: olive;
+    
+}
+.fuchsia{
+    width: 100%;
+    height: 100px;
+    background-color: fuchsia;
     
 }
 .green{
-    width: 450px;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    width: 100%;
     height: 100px;
     background-color: green;
-    display: flex; 
-}
-.lista_colores1{
-    position: relative;
-    width: 950px;
-    height: 80px;px ;
-    left: 170px;
-    display: flex;
-    justify-content: space-around;
-        
+     
 }
 
 .black_text{  
@@ -248,16 +193,6 @@ h2{
     color: yellow;
     font-size: 40px;
 }
-.lista_colores2{
-    position: relative;
-    width: 950px;
-    height:80px ;
-    left: 170px;
-    bottom: 30px;
-    display: flex;
-    justify-content: space-around;
-        
-}
 .olive_text{  
     width: 50px;
     height: 40px;  
@@ -306,3 +241,124 @@ h2{
     color: silver;
     font-size: 40px;
 }
+
+/*
+    
+
+
+
+
+
+.variety{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.text{
+    align-self: center;
+        
+}
+
+.left_side{
+    width: 450px;
+    height: 300px;
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+.first_column{
+    width: 150px;
+    height: 300px;
+    
+}
+
+.second_column{
+    width: 150px;
+    height: 300px;
+    
+}
+
+.third_column{
+    width: 150px;
+    height: 300px;
+    
+}
+
+.right_side{
+    width: 450px;
+    height: 300px;
+    background-color: palevioletred;
+    
+}
+.first_row{
+    width: 450px;
+    height: 100px;
+    display: flex;
+    
+}
+
+.second_row{
+    width: 450px;
+    height: 100px;
+    display: flex;
+}
+
+.third_row{
+    width: 450px;
+    height: 100px;
+    
+    
+}
+
+.lista_colores1{
+    position: relative;
+    width: 950px;
+    height: 80px;px ;
+    left: 170px;
+    display: flex;
+    justify-content: space-around;
+        
+}
+
+.black_text{  
+    width: 50px;
+    height: 40px;  
+    color: black;
+    font-size: 40px;
+}
+.teal_text{  
+    width: 50px;
+    height: 40px;  
+    color: teal;
+    font-size: 40px;
+}
+.blue_text{  
+    width: 50px;
+    height: 40px;  
+    color: blue;
+    font-size: 40px;
+}
+.navy_text{  
+    width: 50px;
+    height: 40px;  
+    color: navy;
+    font-size: 40px;
+}
+
+.lista_colores2{
+    position: relative;
+    width: 950px;
+    height:80px ;
+    left: 170px;
+    bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+        
+}
+
+

@@ -1,7 +1,7 @@
 .fondo{
     width: 1300px;
     height: 800px;
-    background-color: aquamarine;
+    background-image: url("fondo de madera.jpg");
     display: flex;
     flex-direction: column;
     
