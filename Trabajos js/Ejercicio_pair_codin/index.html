@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!-- reduce - convierte un array de varios elementos en un único resultado
+    filter - devuelve un array donde los elementos son true
+    forEach - indica que quiere hacer algo a cada uno de los elementos que forma un array
+    .map - convierte un array en otro array
+    .split - dividir un string en caracteres -->
+
+    <script>
+  
+    let array1 = [7, 4]; 
+        const test = function mySort(arr) {
+            if (arr.length === 0) {
+                return arr;
+            } if (arr.length === 1) {
+                return arr;
+            } if (arr.length === 2) {
+                if (arr[1] > arr[0]) {
+                    return arr;
+                } else {
+                    let newArray = [arr[1], arr[0]];
+                     return newArray;
+                }
+            }
+         } 
+        console.log (test(array1));
+
+
+
+
+
+
+    /* recorrer el array, para cada dos elementos revisar si el de la derecha es mayor que el de la izquierda
+ else {
+                    let newArray = array1 ([1],[0]);
+                    return newArray;
+                }
+ let reves = arr.reverse(); 
+ {
+                while ((a, b)  => { 
+                    let index = 0; 
+                    while(index < array1.length && b < array1[index]) index++;
+                    a.splice(index, 0, b);
+                    return index;
+                }, []);
+            }
+            while + for (mientras no esté ordenado debe repetirse el proceso hasta que esté ordenado)
+
+EJEMPLO:
+
+        function swap(myArr, indexOne, indexTwo){
+  var tmpVal = myArr[indexOne];
+  myArr[indexOne] = myArr[indexTwo];
+  myArr[indexTwo] = tmpVal;
+  return myArr;
+}
+
+var myArr = ['a', 'b', 'c', 'd'];
+console.log( swap( myArr, 0, 1) ); // ["b", "a", "c", "d"]
+
+function bubbleSort(myArr){
+  var size = myArr.length;
+ 
+  for( var pass = 1; pass < size; pass++ ){ // outer loop
+    for( var left = 0; left < (size - pass); left++){ // inner loop
+      var right = left + 1;
+      if( myArr[left] > myArr[right] ){
+        swap(myArr, left, right);
+      }
+    }
+  }
+ 
+  return myArr;
+}
+var myArr = ['d', 'f', 'd', 'c', 'a', 'e', 'b'];
+console.log( bubbleSort( myArr ) ); // ["a", "b", "c", "d", "d", "e", "f"]
+
+
+
+
+
+
+    */
+
+
+    </script>
+
+</body>
+</html>
