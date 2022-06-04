@@ -16,22 +16,49 @@
 
     <script>
   
-    let array1 = [7, 4]; 
-        const test = function mySort(arr) {
-            if (arr.length === 0) {
-                return arr;
-            } if (arr.length === 1) {
-                return arr;
-            } if (arr.length === 2) {
-                if (arr[1] > arr[0]) {
-                    return arr;
+    let myArray = [4.5, 8.6, 150, 1.0];     //arreglo a ordenar
+    myArray=bubbleSort(myArray);   //invocamos la función 
+    //alert(myArray)  
+    console.log (myArray);        //imprimimos para ver el resultado
+    
+    function bubbleSort(myArray){    
+    for(i=0;i<(myArray.length-1);i++)           //recorreremos todos los elementos hasta n-1    
+    for(j=0;j<(myArray.length-i);j++){          //recorreremos todos los elementos hasta n-i, tomar en cuenta los ultimos no tiene caso ya que ya estan acomodados.
+        
+        if(myArray[j]>myArray[j+1]){            //comparamos            
+             aux=myArray[j];                     //guardamos el numero mayor en el auxiliar             
+             myArray[j]=myArray[j+1];            //guardamos el numero menor en el lugar correspondiente             
+             myArray[j+1]=aux;                   //asignamos el auxiliar en el lugar correspondiente
+ 
+        } 
+    } 
+    return myArray
+}
+ 
+
+
+ 
+ 
+ 
+       /* const test = function mySort(myArray) {
+            if (myArray.length === 0) {
+                return myArray;
+            } if (myArray.length === 1) {
+                return myArr;
+            } if (myArray.length === 2) {
+                if (myArray[1] >= myArray[0]) {
+                    return myArray;
                 } else {
-                    let newArray = [arr[1], arr[0]];
+                    let newArray = [myArray[1], myArray[0]];
                      return newArray;
                 }
             }
+            if (myArray.length >=3){
+
+            }
          } 
-        console.log (test(array1));
+        console.log (test(myArray));*/
+
 
 
 

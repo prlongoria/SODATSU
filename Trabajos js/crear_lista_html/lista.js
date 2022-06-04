@@ -6,6 +6,7 @@ function changeColor (){
     colors.forEach(myFunction);
     function myFunction (element){        
         element.style.color = element.innerHTML.toLowerCase();
+        //element.style.color = "blue";
     };
 }
 
